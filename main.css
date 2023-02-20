@@ -1,0 +1,133 @@
+html * {
+    font-family: "Rubik";
+    letter-spacing: 0.05em;
+    color: #222;
+}
+
+h1 {
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 1em 0 1em 0;
+}
+
+h2 {
+    font-size: large;
+    text-transform: uppercase;
+    margin: 1em 0 1em 0;
+}
+
+h3 {
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0.5em 0 0.5em 0;
+    letter-spacing: 0;
+}
+
+h4 {
+    font-size: small;
+    margin: 0.5em 0 0.5em 0;
+}
+
+li, p {
+    font-size: small;
+    overflow-wrap: break-word;
+    line-height: 1.2em;
+}
+
+.root {
+    padding: 2em;
+}
+
+.icon {
+    height: 1em;
+}
+
+.f {
+    flex: 1;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.pr {
+    padding-right: 1em;
+}
+
+.pl {
+    padding-left: 1em;
+}
+
+.py {
+    padding: 0.2em 0 0.2em 0;
+}
+
+.mt {
+  margin-top: 2em;
+}
+
+.ml {
+  margin-top: 2em;
+}
+
+.center {
+    text-align: center;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.container {
+    padding: 1em;
+}
+
+.left-container {
+    background-color: gainsboro;
+    flex: 1;
+}
+
+.icons {
+    justify-content: center;
+}
+
+.main-container {
+    flex: 3;
+    align-content: flex-start;
+}
+
+.tag {
+    padding: 0.2em 1em 0.2em 1em;
+    margin: 0.2em 0.2em 0 0.2em;
+    background-color: gainsboro;
+    border-radius: 1em;
+    text-transform: capitalize;
+    font-size: xx-small;
+}
+
+.pfp {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
