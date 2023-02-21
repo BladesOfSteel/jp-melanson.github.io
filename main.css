@@ -160,3 +160,9 @@ li, p {
     width: 1em;
     height: 1em;
 }
+
+@media print {
+    .about {
+        display: none;
+    }
+}
