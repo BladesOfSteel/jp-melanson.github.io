@@ -51,12 +51,15 @@ li, p {
 .col {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    flex-basis: 100%;
 }
 
 .row {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .justify-center {
@@ -65,6 +68,10 @@ li, p {
 
 .flex-wrap {
     flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
 }
 
 .pr {
@@ -103,19 +110,27 @@ li, p {
     padding: 1em;
 }
 
-.left-container {
-    background-color: gainsboro;
-    flex: 1;
-}
-
 .icons {
     justify-content: center;
 }
 
+.left-container {
+    background-color: gainsboro;
+}
+
 .main-container {
-    flex: 3;
     align-content: flex-start;
-    min-width: 512px;
+}
+
+
+@media screen and (min-width: 800px) {
+    .left-container {
+        flex: 1
+    }
+
+    .main-container {
+        flex: 3
+    }
 }
 
 .tag {
