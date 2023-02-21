@@ -110,10 +110,6 @@ li, p {
     padding: 1em;
 }
 
-.icons {
-    justify-content: center;
-}
-
 .left-container {
     background-color: gainsboro;
 }
@@ -121,7 +117,6 @@ li, p {
 .main-container {
     align-content: flex-start;
 }
-
 
 @media screen and (min-width: 800px) {
     .left-container {
@@ -146,4 +141,20 @@ li, p {
     width: 64px;
     height: 64px;
     border-radius: 50%;
+}
+
+.red {
+    color: red;
+}
+
+.twitter {
+    color: #1DA1F2;
+}
+
+.linkedin {
+    color: #0077B5;
+}
+
+.stackoverflow {
+    width: 1em;
 }
