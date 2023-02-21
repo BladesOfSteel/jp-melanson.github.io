@@ -115,6 +115,7 @@ li, p {
 .main-container {
     flex: 3;
     align-content: flex-start;
+    min-width: 512px;
 }
 
 .tag {
