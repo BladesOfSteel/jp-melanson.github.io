@@ -166,3 +166,19 @@ li, p {
         display: none;
     }
 }
+
+.printonly {
+    display: none;
+}
+
+@media print {
+    .printonly {
+        display: inherit;
+    }
+    .printrow {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}

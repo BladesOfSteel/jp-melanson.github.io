@@ -5,7 +5,8 @@
     <title>JP Melanson</title>
     <meta charset="utf-8">
     <meta name="description" content="JP's resume, lead software engineer">
-    <meta name="keywords" content="jp,melanson,tech,mobile,app,freelance,freelancer,design,web,cloud,react,reactnative,consulting,consultant,software,engineer,cto">
+    <meta name="keywords"
+          content="jp,melanson,tech,mobile,app,freelance,freelancer,design,web,cloud,react,reactnative,consulting,consultant,software,engineer,cto">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:400,700&amp;display=swap">
@@ -15,7 +16,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-V49XEZRK7X"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
       gtag('js', new Date());
 
       gtag('config', 'G-V49XEZRK7X');
@@ -50,19 +55,31 @@
                             <p>+1 (418) 903-5365</p>
                         </div>
                     </a>
-                    <div class="row py justify-center">
-                        <a href="https://www.linkedin.com/in/jpmelanson">
-                            <ion-icon name="logo-linkedin" class="pr linkedin"></ion-icon>
-                        </a>
-                        <a href="https://github.com/jp-melanson">
-                            <ion-icon name="logo-github" class="pr"></ion-icon>
-                        </a>
-                        <a href="https://stackoverflow.com/users/659114/jpmelanson">
+                    <div class="row justify-center">
+                        <div class="printrow py">
+                            <a href="https://www.linkedin.com/in/jpmelanson" title="LinkedIn">
+                                <ion-icon name="logo-linkedin" class="pr linkedin"></ion-icon>
+                            </a>
+                            <p class="printonly">linkedin.com/in/jpmelanson</p>
+                        </div>
+                        <div class="printrow py">
+                            <a href="https://github.com/jp-melanson" title="Github">
+                                <ion-icon name="logo-github" class="pr"></ion-icon>
+                            </a>
+                            <p class="printonly">github.com/jp-melanson</p>
+                        </div>
+                        <div class="printrow py">
+                            <a href="https://stackoverflow.com/users/659114/jpmelanson" title="Stack Overflow">
                             <img aria-label="stackoverflow logo" class="pr stackoverflow" src="img/so.svg"></img>
-                        </a>
-                        <a href="https://twitter.com/jp_melanson">
+                            </a>
+                            <p class="printonly">stk.so/jpmelanson</p>
+                        </div>
+                        <div class="printrow py">
+                            <a href="https://twitter.com/jp_melanson" title="Twitter">
                             <ion-icon name="logo-twitter" class="pr twitter"></ion-icon>
-                        </a>
+                            </a>
+                            <p class="printonly">twitter.com/jp_melanson</p>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -274,7 +291,9 @@
                 </ul>
             </section>
             <section class="about mt center">
-                Crafted with <ion-icon name="heart" class="red"></ion-icon> by me 😊 (2023)
+                Crafted with
+                <ion-icon name="heart" class="red"></ion-icon>
+                by me 😊 (2023)
             </section>
         </div>
     </div>
