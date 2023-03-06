@@ -50,7 +50,11 @@ li, p {
     height: 1em;
 }
 
-.f {
+.bold {
+    font-weight: bold;
+}
+
+.f, .flex {
     flex: 1;
 }
 
@@ -97,7 +101,7 @@ li, p {
 }
 
 .ml {
-  margin-top: 2em;
+  margin-left: 1em;
 }
 
 .center {
@@ -147,6 +151,12 @@ li, p {
     width: 64px;
     height: 64px;
     border-radius: 50%;
+}
+
+.cie_logo {
+    width: 48px;
+    height: 48px;
+    border-radius: 10%;
 }
 
 .red {
