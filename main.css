@@ -31,6 +31,11 @@ h4 {
     margin: 0.5em 0 0.5em 0;
 }
 
+li {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
 li, p {
     font-size: small;
     overflow-wrap: break-word;
