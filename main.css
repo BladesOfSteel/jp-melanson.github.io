@@ -1,99 +1,102 @@
 html * {
-    font-family: "Rubik";
-    letter-spacing: 0.05em;
-    color: #222;
+  font-family: "Rubik";
+  letter-spacing: 0.05em;
+  color: #222;
 }
 
 h1 {
-    font-size: x-large;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 1em 0 1em 0;
+  font-size: x-large;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1em 0 1em 0;
 }
 
 h2 {
-    font-size: large;
-    text-transform: uppercase;
-    margin: 1em 0 1em 0;
+  font-size: large;
+  text-transform: uppercase;
+  margin: 1em 0 1em 0;
 }
 
 h3 {
-    font-size: medium;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin: 0.5em 0 0.5em 0;
-    letter-spacing: 0;
+  font-size: medium;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0.5em 0 0.5em 0;
+  letter-spacing: 0;
 }
 
 h4 {
-    font-size: small;
-    font-weight: bold;
-    margin: 0.5em 0 0.5em 0;
+  font-size: small;
+  font-weight: bold;
+  margin: 0.5em 0 0.5em 0;
+  color: #777;
 }
 
 li {
-    margin-top: 1em;
-    margin-bottom: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
-li, p {
-    font-size: small;
-    overflow-wrap: break-word;
-    line-height: 1.2em;
+li,
+p {
+  font-size: small;
+  overflow-wrap: break-word;
+  line-height: 1.2em;
 }
 
 .root {
-    padding: 2em;
+  padding: 2em;
 }
 
 .icon {
-    height: 1em;
+  height: 1em;
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-.f, .flex {
-    flex: 1;
+.f,
+.flex {
+  flex: 1;
 }
 
 .col {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  flex-basis: 100%;
 }
 
 .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .justify-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .flex-wrap {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .flex-nowrap {
-    flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .pr {
-    padding-right: 1em;
+  padding-right: 1em;
 }
 
 .pl {
-    padding-left: 1em;
+  padding-left: 1em;
 }
 
 .py {
-    padding: 0.2em 0 0.2em 0;
+  padding: 0.2em 0 0.2em 0;
 }
 
 .mt {
@@ -105,95 +108,95 @@ li, p {
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .align-start {
-    align-items: flex-start;
+  align-items: flex-start;
 }
 
 .align-center {
-    align-items: center;
+  align-items: center;
 }
 
 .container {
-    padding: 1em;
+  padding: 1em;
 }
 
 .left-container {
-    background-color: gainsboro;
+  background-color: gainsboro;
 }
 
 .main-container {
-    align-content: flex-start;
+  align-content: flex-start;
 }
 
 @media screen and (min-width: 800px) {
-    .left-container {
-        flex: 1
-    }
+  .left-container {
+    flex: 1;
+  }
 
-    .main-container {
-        flex: 3
-    }
+  .main-container {
+    flex: 3;
+  }
 }
 
 .tag {
-    padding: 0.2em 1em 0.2em 1em;
-    margin: 0.2em 0.2em 0 0.2em;
-    background-color: gainsboro;
-    border-radius: 1em;
-    text-transform: capitalize;
-    font-size: xx-small;
+  padding: 0.2em 1em 0.2em 1em;
+  margin: 0.2em 0.2em 0 0.2em;
+  background-color: gainsboro;
+  border-radius: 1em;
+  text-transform: capitalize;
+  font-size: xx-small;
 }
 
 .pfp {
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
 }
 
 .cie_logo {
-    width: 48px;
-    height: 48px;
-    border-radius: 10%;
+  width: 48px;
+  height: 48px;
+  border-radius: 10%;
 }
 
 .red {
-    color: red;
+  color: red;
 }
 
 .twitter {
-    color: #1DA1F2;
+  color: #1da1f2;
 }
 
 .linkedin {
-    color: #0077B5;
+  color: #0077b5;
 }
 
 .stackoverflow {
-    width: 1em;
-    height: 1em;
+  width: 1em;
+  height: 1em;
 }
 
 @media print {
-    .about {
-        display: none;
-    }
+  .about {
+    display: none;
+  }
 }
 
 .printonly {
-    display: none;
+  display: none;
 }
 
 @media print {
-    .printonly {
-        display: inherit;
-    }
-    .printrow {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-    }
+  .printonly {
+    display: inherit;
+  }
+  .printrow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
 }
